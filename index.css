@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  text-align:center;
+}
+
+header {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.3)),url(pictures/index.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-nav {
+  float: left;
+  list-style: none;
+  margin-top: 200px;
+  margin-left: 20px;
+}
+
+.main-nav li{
+    margin: 20px;
+}
+
+.main-nav li a {
+   color: white;
+   padding: 5px 50px;
+   font-family: "Roboto", sans-serif;
+   font-size: 15px;
+}
+
+.main-nav li a:hover {
+   color: orange;
+   border: 1px solid white;
+}
+
+.main-nav li.active a{
+    border: 1px solid white;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.hero {
+  position: absolute;
+  width: 1200px;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+
+.logo img {
+  position: relative;
+  width: 100px;
+  height: auto;
+  margin-left: 50px;
+  background-size: contain;
+  background-color: rgba(0,0,0,0.0);
+  text-shadow: 5px 10px 10px #000000;
+  padding-top: 30px;
+  margin-top: 100px;
+}
+
+.heading {
+  color: #d9d6c8;
+  height: auto;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1000px;
+
+}
+h1 {
+  color: #d9d6c8;
+  font-family: 'Ubuntu';
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+h2 {
+  color: brown;
+  font-family: 'Ubuntu';
+  font-size: 25px;
+  font-style: bold;
+  font-weight: 100;
+  text-transform: uppercase;
+
+}
+h3{
+  color: brown;
+  font-family: 'Ubuntu';
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-left: 800px;
+
+}
+
+/*
+body {
+  font-family: monospace;
+}
+
+.row {
+  margin: auto;
+}
+
+
+
+
+h1 {
+  color: white;
+  font-family: 'Ubuntu';
+  font-size: 40px;
+  font-style: bold;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-left: 800px;
+  margin-top: 50px;
+}
+
+p {
+  color: white;
+  font-family: 'Ubuntu';
+  font-size: 15px;
+  font-style:normal;
+  margin-left: 800px;
+
+}
+
+
+.button {
+  margin-top: 70px;
+  margin-left:  800px;
+}
+
+
+.btn {
+  border: 1px solid white;
+  padding: 10px 10px;
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+
+}
+
+
+.btn-one {
+  background-color: FF7335;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.btn-one:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.parts {
+  margin-left: 335px;
+}*/
